@@ -27,6 +27,7 @@ public class RealPriceExam {
 				+ "!/E_LVR_LAND_A.XML";
 //把"A"_LVR_LAND_A.XML改成"E"就是高雄!
 
+
 		Document jsoupDoc = CrawlerPack.start()
 				.getFromXml(uri);
 
