@@ -47,6 +47,7 @@ public class BasicExample {
 			    
 		//);
 		test1.select("div").remove();
+		//刪除test1元素內的div
 		System.out.println(test1);
 	}
 }
